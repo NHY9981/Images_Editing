@@ -71,8 +71,8 @@ def process_image_list(image_list_path, video_root_dir, output_dir):
 
 if __name__ == "__main__":
     image_list_file = 'image_list.txt'
-    video_directory = '/data/niuhy24/deepfake/train/Celeb-real'
-    output_directory = '/data/niuhy24/deepfake/train/source_frames'  # 指定输出文件夹
+    video_directory = './Celeb-real'
+    output_directory = './source_frames'  # 指定输出文件夹
 
     process_image_list(image_list_file, video_directory, output_directory)
     print("处理完成。")
