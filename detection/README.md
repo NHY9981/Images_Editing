@@ -22,7 +22,6 @@
   - 基于EfficientNetV2的深度伪造检测模型
   - Xception网络与Vision Transformer结合，用于深度伪造检测任务
   - M2TR模型：结合RGB和频域特征+多尺度transfomers
-  - efficientnet+Vit
 
 - **preprocess/**: 数据预处理与增强
   - 实现了针对真实图片的数据增强技术
