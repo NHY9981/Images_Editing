@@ -59,8 +59,8 @@ def extract_and_save_frames(txt_file_path, mp4_folder_path, output_folder):
                 print(f"警告：无法解析文件名 '{swap_filename}'")
 
 if __name__ == "__main__":
-    txt_file = "/home/niuhy24/deepfake/image_list.txt"
-    mp4_folder = "/data/niuhy24/deepfake/train/Celeb-synthesis"
-    output_folder = "/data/niuhy24/deepfake/train/baseline_frames"
+    txt_file = "./image_list.txt"
+    mp4_folder = "./Celeb-real"
+    output_folder = "./source_frames"
     extract_and_save_frames(txt_file, mp4_folder, output_folder)
     #print("帧提取完成。提取的帧保存在 '{}' 文件夹中。".format("extracted_frames"))
