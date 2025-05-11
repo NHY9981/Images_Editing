@@ -222,9 +222,9 @@ if __name__ == "__main__":
     if not os.path.exists(output_frames_dir):
         os.makedirs(output_frames_dir)
 
-    image_list_path = "/home/niuhy24/deepfake/image_list.txt"
+    image_list_path = "./image_list.txt"
 
-    model = "/data/niuhy24/deepfake/inswapper_128.onnx"
+    model = "./inswapper_128.onnx"
 
 
     try:
