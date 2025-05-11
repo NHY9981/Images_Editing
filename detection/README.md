@@ -3,12 +3,13 @@
 本项目旨在检测深度伪造(Deepfake)图像，包含两种不同的检测方法：自主研发模型(`our_model`)和基于开源模型`VisionRush`的实现。
 
 ## 项目结构
-.
+```
 ├── our_model/ # 自主研发模型
 │ ├── network/ # 模型网络结构代码
 │ ├── preprocess/ # 数据预处理与增强代码
 │ └── train.py /# 训练代码，结合了PGD对抗样本训练
 └── VisionRush/ # 开源模型DeepFakeDefenders (仅包含主要代码)
+```
 
 
 ## 方法说明
